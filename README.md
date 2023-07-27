@@ -13,4 +13,5 @@
 
 ## ✅ Things to do:
 
-- Better UI/UX
+- Better UI/UX\
+- Better test coverage
