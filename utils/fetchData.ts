@@ -3,6 +3,7 @@ import useSWR, { SWRConfiguration } from 'swr';
 const API_BASE_URL = 'https://api.spacexdata.com/v5';
 
 const fetcher = async (url: string, options?: SWRConfiguration): Promise<any> => {
+  // @ts-ignore
   const response = await fetch(url, options);
   if (!response.ok) {
     throw new Error('Network issues');
