@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Wrapper Component renders the Wrapper component with children 1`] = `
+<div>
+  <div
+    class="sc-bczSft OKzct"
+    data-testid="card-wrapper"
+  >
+    <div>
+      Test Children
+    </div>
+  </div>
+</div>
+`;

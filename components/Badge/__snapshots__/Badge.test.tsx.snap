@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Badge Component renders the badge with the correct color and text 1`] = `
+<h3
+  class="sc-bczSft kqKmyZ"
+  color="green"
+  data-testid="badge"
+>
+  Success
+</h3>
+`;

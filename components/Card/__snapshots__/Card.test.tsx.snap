@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card Component snapshot testing 1`] = `
+<div>
+  <div
+    class="sc-bczSft fNCHUD"
+  >
+    <h2
+      class="sc-gsnScm jUQJBz"
+      data-testid="heading"
+    >
+      Falcon 9 Launch
+       
+      🚀
+    </h2>
+    <div
+      class="sc-dkzCjb JynFz"
+    >
+      <img
+        alt="SpaceX Image"
+        data-nimg="1"
+        decoding="async"
+        height="100"
+        loading="lazy"
+        src="/_next/image?url=https%3A%2F%2Fimages2.imgbox.com%2F94%2Ff2%2FNN6Ph45r_o.png&w=256&q=75"
+        srcset="/_next/image?url=https%3A%2F%2Fimages2.imgbox.com%2F94%2Ff2%2FNN6Ph45r_o.png&w=128&q=75 1x, /_next/image?url=https%3A%2F%2Fimages2.imgbox.com%2F94%2Ff2%2FNN6Ph45r_o.png&w=256&q=75 2x"
+        style="color: transparent;"
+        width="100"
+      />
+    </div>
+    <h3
+      class="sc-hKMtDE jCeMsk"
+      color="green"
+      data-testid="badge"
+    >
+      Success
+    </h3>
+    <ul
+      class="sc-eCYdKt kMlNwM"
+    >
+      <li
+        class="sc-jSMdHm fuUGvV"
+      >
+        <span
+          class="sc-gKXNOb bsSupN"
+        >
+          DATE:
+        </span>
+         
+        2023-07-27
+      </li>
+      <li
+        class="sc-jSMdHm fuUGvV"
+      >
+        <span
+          class="sc-gKXNOb bsSupN"
+        >
+          CORE:
+        </span>
+         
+        B1058
+      </li>
+      <li
+        class="sc-jSMdHm fuUGvV"
+      >
+        <span
+          class="sc-gKXNOb bsSupN"
+        >
+          PAYLOAD ID:
+        </span>
+         
+        ABCD1234
+      </li>
+      <li
+        class="sc-jSMdHm fuUGvV"
+      >
+        <span
+          class="sc-gKXNOb bsSupN"
+        >
+          PAYLOAD TYPE:
+        </span>
+         
+        Satellite
+      </li>
+    </ul>
+  </div>
+</div>
+`;

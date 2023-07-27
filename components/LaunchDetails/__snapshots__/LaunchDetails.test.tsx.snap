@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LaunchDetails Component renders the LaunchDetails component with all details 1`] = `
+<div>
+  <ul
+    class="sc-bczSft gJhYnS"
+  >
+    <li
+      class="sc-gsnScm hhaiOH"
+    >
+      <span
+        class="sc-dkzCjb ipmQqA"
+      >
+        DATE:
+      </span>
+       
+      2023-07-27
+    </li>
+    <li
+      class="sc-gsnScm hhaiOH"
+    >
+      <span
+        class="sc-dkzCjb ipmQqA"
+      >
+        CORE:
+      </span>
+       
+      Falcon 9
+    </li>
+    <li
+      class="sc-gsnScm hhaiOH"
+    >
+      <span
+        class="sc-dkzCjb ipmQqA"
+      >
+        PAYLOAD ID:
+      </span>
+       
+      ABCD1234
+    </li>
+    <li
+      class="sc-gsnScm hhaiOH"
+    >
+      <span
+        class="sc-dkzCjb ipmQqA"
+      >
+        PAYLOAD TYPE:
+      </span>
+       
+      Satellite
+    </li>
+    <li
+      class="sc-gsnScm hhaiOH"
+    >
+      <span
+        class="sc-dkzCjb ipmQqA"
+      >
+        FAILURE REASON:
+      </span>
+       
+      Engine anomaly detected
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`LaunchDetails Component renders the LaunchDetails component without failure reason 1`] = `
+<div>
+  <ul
+    class="sc-bczSft gJhYnS"
+  >
+    <li
+      class="sc-gsnScm hhaiOH"
+    >
+      <span
+        class="sc-dkzCjb ipmQqA"
+      >
+        DATE:
+      </span>
+       
+      2023-07-27
+    </li>
+    <li
+      class="sc-gsnScm hhaiOH"
+    >
+      <span
+        class="sc-dkzCjb ipmQqA"
+      >
+        CORE:
+      </span>
+       
+      Falcon 9
+    </li>
+    <li
+      class="sc-gsnScm hhaiOH"
+    >
+      <span
+        class="sc-dkzCjb ipmQqA"
+      >
+        PAYLOAD ID:
+      </span>
+       
+      ABCD1234
+    </li>
+    <li
+      class="sc-gsnScm hhaiOH"
+    >
+      <span
+        class="sc-dkzCjb ipmQqA"
+      >
+        PAYLOAD TYPE:
+      </span>
+       
+      Satellite
+    </li>
+  </ul>
+</div>
+`;
