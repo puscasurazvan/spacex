@@ -1,4 +1,5 @@
 import * as Styled from './LaunchDetails.styled';
+import { v4 as uuid } from 'uuid';
 
 type LaunchDetailsProps = {
   launchDate: string;
@@ -9,22 +10,39 @@ type LaunchDetailsProps = {
 };
 
 export const LaunchDetails = ({ launchDate, core, payloadType, payloadId, failureReason }: LaunchDetailsProps) => {
+  const launchDetails = [
+    {
+      testId: 'date',
+      spanText: 'DATE:',
+      value: launchDate,
+    },
+    {
+      testId: 'core',
+      spanText: 'CORE:',
+      value: core,
+    },
+    {
+      testId: 'payloadType',
+      spanText: 'PAYLOAD TYPE:',
+      value: payloadType,
+    },
+    {
+      testId: 'payloadId',
+      spanText: 'PAYLOAD ID:',
+      value: payloadId,
+    },
+  ];
+
   return (
     <Styled.List>
-      <Styled.Item>
-        <Styled.Span>DATE:</Styled.Span> {launchDate}
-      </Styled.Item>
-      <Styled.Item>
-        <Styled.Span>CORE:</Styled.Span> {core}
-      </Styled.Item>
-      <Styled.Item>
-        <Styled.Span>PAYLOAD ID:</Styled.Span> {payloadId}
-      </Styled.Item>
-      <Styled.Item>
-        <Styled.Span>PAYLOAD TYPE:</Styled.Span> {payloadType}
-      </Styled.Item>
+      {launchDetails.map(({ testId, spanText, value }) => (
+        <Styled.Item data-testid={testId} key={uuid()}>
+          <Styled.Span>{spanText}</Styled.Span> {value}
+        </Styled.Item>
+      ))}
+
       {failureReason && (
-        <Styled.Item>
+        <Styled.Item data-testid="failureReason">
           <Styled.Span>FAILURE REASON:</Styled.Span> {failureReason}
         </Styled.Item>
       )}

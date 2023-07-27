@@ -7,6 +7,7 @@ exports[`LaunchDetails Component renders the LaunchDetails component with all de
   >
     <li
       class="sc-gsnScm hhaiOH"
+      data-testid="date"
     >
       <span
         class="sc-dkzCjb ipmQqA"
@@ -18,6 +19,7 @@ exports[`LaunchDetails Component renders the LaunchDetails component with all de
     </li>
     <li
       class="sc-gsnScm hhaiOH"
+      data-testid="core"
     >
       <span
         class="sc-dkzCjb ipmQqA"
@@ -29,17 +31,7 @@ exports[`LaunchDetails Component renders the LaunchDetails component with all de
     </li>
     <li
       class="sc-gsnScm hhaiOH"
-    >
-      <span
-        class="sc-dkzCjb ipmQqA"
-      >
-        PAYLOAD ID:
-      </span>
-       
-      ABCD1234
-    </li>
-    <li
-      class="sc-gsnScm hhaiOH"
+      data-testid="payloadType"
     >
       <span
         class="sc-dkzCjb ipmQqA"
@@ -51,6 +43,19 @@ exports[`LaunchDetails Component renders the LaunchDetails component with all de
     </li>
     <li
       class="sc-gsnScm hhaiOH"
+      data-testid="payloadId"
+    >
+      <span
+        class="sc-dkzCjb ipmQqA"
+      >
+        PAYLOAD ID:
+      </span>
+       
+      ABCD1234
+    </li>
+    <li
+      class="sc-gsnScm hhaiOH"
+      data-testid="failureReason"
     >
       <span
         class="sc-dkzCjb ipmQqA"
@@ -71,6 +76,7 @@ exports[`LaunchDetails Component renders the LaunchDetails component without fai
   >
     <li
       class="sc-gsnScm hhaiOH"
+      data-testid="date"
     >
       <span
         class="sc-dkzCjb ipmQqA"
@@ -82,6 +88,7 @@ exports[`LaunchDetails Component renders the LaunchDetails component without fai
     </li>
     <li
       class="sc-gsnScm hhaiOH"
+      data-testid="core"
     >
       <span
         class="sc-dkzCjb ipmQqA"
@@ -93,17 +100,7 @@ exports[`LaunchDetails Component renders the LaunchDetails component without fai
     </li>
     <li
       class="sc-gsnScm hhaiOH"
-    >
-      <span
-        class="sc-dkzCjb ipmQqA"
-      >
-        PAYLOAD ID:
-      </span>
-       
-      ABCD1234
-    </li>
-    <li
-      class="sc-gsnScm hhaiOH"
+      data-testid="payloadType"
     >
       <span
         class="sc-dkzCjb ipmQqA"
@@ -112,6 +109,18 @@ exports[`LaunchDetails Component renders the LaunchDetails component without fai
       </span>
        
       Satellite
+    </li>
+    <li
+      class="sc-gsnScm hhaiOH"
+      data-testid="payloadId"
+    >
+      <span
+        class="sc-dkzCjb ipmQqA"
+      >
+        PAYLOAD ID:
+      </span>
+       
+      ABCD1234
     </li>
   </ul>
 </div>

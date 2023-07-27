@@ -16,6 +16,7 @@ export const fetchData = (endpoint: string, options?: SWRConfiguration) => {
   // Prepopulate API data with query config and retrieve only the fields we need
   // https://github.com/r-spacex/SpaceX-API/blob/master/docs/queries.md
   const fetchOptions: SWRConfiguration = {
+    // @ts-ignore
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',

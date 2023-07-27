@@ -9,7 +9,7 @@ export const CardWrapper = styled.div({
   borderRadius: '15px',
   padding: '10px',
   width: '100%',
-  fontFamily: 'Arial',
+  fontFamily: 'Orbitron Regular',
   [`@media (min-width: 992px)`]: {
     width: '500px',
   },
@@ -18,7 +18,7 @@ export const CardWrapper = styled.div({
       '0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45)',
     borderRadius: '25px',
 
-    transition: 'box-shadow 1000ms, border-radius 1000ms',
+    transition: 'box-shadow 500ms, border-radius 1000ms',
   },
 });
 

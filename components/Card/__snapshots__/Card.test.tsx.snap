@@ -3,7 +3,7 @@
 exports[`Card Component snapshot testing 1`] = `
 <div>
   <div
-    class="sc-bczSft fNCHUD"
+    class="sc-bczSft DvdJH"
   >
     <h2
       class="sc-gsnScm jUQJBz"
@@ -40,6 +40,7 @@ exports[`Card Component snapshot testing 1`] = `
     >
       <li
         class="sc-jSMdHm fuUGvV"
+        data-testid="date"
       >
         <span
           class="sc-gKXNOb bsSupN"
@@ -51,6 +52,7 @@ exports[`Card Component snapshot testing 1`] = `
       </li>
       <li
         class="sc-jSMdHm fuUGvV"
+        data-testid="core"
       >
         <span
           class="sc-gKXNOb bsSupN"
@@ -62,17 +64,7 @@ exports[`Card Component snapshot testing 1`] = `
       </li>
       <li
         class="sc-jSMdHm fuUGvV"
-      >
-        <span
-          class="sc-gKXNOb bsSupN"
-        >
-          PAYLOAD ID:
-        </span>
-         
-        ABCD1234
-      </li>
-      <li
-        class="sc-jSMdHm fuUGvV"
+        data-testid="payloadType"
       >
         <span
           class="sc-gKXNOb bsSupN"
@@ -81,6 +73,18 @@ exports[`Card Component snapshot testing 1`] = `
         </span>
          
         Satellite
+      </li>
+      <li
+        class="sc-jSMdHm fuUGvV"
+        data-testid="payloadId"
+      >
+        <span
+          class="sc-gKXNOb bsSupN"
+        >
+          PAYLOAD ID:
+        </span>
+         
+        ABCD1234
       </li>
     </ul>
   </div>

@@ -30,7 +30,9 @@ export default class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <Head />
+        <Head>
+          <link rel="preload" href="/fonts/Orbitron_Regular.woff" as="font" type="font/woff" crossOrigin="" />
+        </Head>
         <body>
           <Main />
           <NextScript />

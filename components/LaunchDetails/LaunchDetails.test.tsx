@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import '@testing-library/jest-dom/extend-expect'; // For additional DOM matchers
-import { LaunchDetails } from './LaunchDetails'; // Replace './LaunchDetails' with the correct path to your LaunchDetails component
+import '@testing-library/jest-dom/extend-expect';
+import { LaunchDetails } from './LaunchDetails';
 
 describe('LaunchDetails Component', () => {
   it('renders the LaunchDetails component with all details', () => {
@@ -11,7 +11,7 @@ describe('LaunchDetails Component', () => {
     const payloadId = 'ABCD1234';
     const failureReason = 'Engine anomaly detected';
 
-    const { container } = render(
+    const { container, getByTestId } = render(
       <LaunchDetails
         launchDate={launchDate}
         core={core}
@@ -20,8 +20,19 @@ describe('LaunchDetails Component', () => {
         failureReason={failureReason}
       />
     );
+    const dateElement = getByTestId('date');
+    const coreElement = getByTestId('core');
+    const payloadIdElement = getByTestId('payloadId');
+    const payloadTypeElement = getByTestId('payloadType');
+    const failureReasonElement = getByTestId('failureReason');
 
     expect(container).toMatchSnapshot();
+
+    expect(dateElement).toBeInTheDocument();
+    expect(coreElement).toBeInTheDocument();
+    expect(payloadIdElement).toBeInTheDocument();
+    expect(payloadTypeElement).toBeInTheDocument();
+    expect(failureReasonElement).toBeInTheDocument();
   });
 
   it('renders the LaunchDetails component without failure reason', () => {
@@ -31,7 +42,7 @@ describe('LaunchDetails Component', () => {
     const payloadId = 'ABCD1234';
     const failureReason = '';
 
-    const { container } = render(
+    const { container, getByTestId } = render(
       <LaunchDetails
         launchDate={launchDate}
         core={core}
@@ -40,7 +51,15 @@ describe('LaunchDetails Component', () => {
         failureReason={failureReason}
       />
     );
+    const dateElement = getByTestId('date');
+    const coreElement = getByTestId('core');
+    const payloadIdElement = getByTestId('payloadId');
+    const payloadTypeElement = getByTestId('payloadType');
 
     expect(container).toMatchSnapshot();
+    expect(dateElement).toBeInTheDocument();
+    expect(coreElement).toBeInTheDocument();
+    expect(payloadIdElement).toBeInTheDocument();
+    expect(payloadTypeElement).toBeInTheDocument();
   });
 });

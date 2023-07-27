@@ -3,7 +3,7 @@
 exports[`Wrapper Component renders the Wrapper component with children 1`] = `
 <div>
   <div
-    class="sc-bczSft OKzct"
+    class="sc-bczSft hGAcGR"
     data-testid="card-wrapper"
   >
     <div>

@@ -9,8 +9,10 @@
 - React 18
 - Styled Components
 - useSwr
-- dateFNS for date formatting ( lightweight lib )
+- dateFNS for date formatting ( lightweight lib and updated regularly )
 
 ## ✅ Things to do:
 
-- Better UI/UX
+- Make it even more responsive for different types of devices
+- Import API_KEY from an env file ( best practice for comercial deploying )
+- Improve the UI/UX, implement more performance features from NextJS documentation
