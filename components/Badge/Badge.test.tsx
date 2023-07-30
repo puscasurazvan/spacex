@@ -1,6 +1,6 @@
 import { render } from '@testing-library/react';
-import '@testing-library/jest-dom/extend-expect'; // For additional DOM matchers
-import { Badge } from './Badge'; // Replace './Badge' with the correct path to your Badge component
+import '@testing-library/jest-dom/extend-expect';
+import { Badge } from './Badge';
 
 describe('Badge Component', () => {
   it('renders the badge with the correct color and text', () => {

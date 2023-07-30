@@ -3,7 +3,7 @@
 exports[`LaunchDetails Component renders the LaunchDetails component with all details 1`] = `
 <div>
   <ul
-    class="sc-bczSft gJhYnS"
+    class="sc-bczSft cmXmCU"
   >
     <li
       class="sc-gsnScm hhaiOH"
@@ -72,7 +72,7 @@ exports[`LaunchDetails Component renders the LaunchDetails component with all de
 exports[`LaunchDetails Component renders the LaunchDetails component without failure reason 1`] = `
 <div>
   <ul
-    class="sc-bczSft gJhYnS"
+    class="sc-bczSft cmXmCU"
   >
     <li
       class="sc-gsnScm hhaiOH"
