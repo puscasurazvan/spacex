@@ -10,6 +10,7 @@
 - Styled Components
 - useSwr
 - dateFNS for date formatting ( lightweight lib and updated regularly )
+- UI deployment: [UI](https://spacex-ten-gamma.vercel.app/)
 
 ## ✅ Things to do:
 
