@@ -7,6 +7,8 @@ export const List = styled.ul({
   '>*': {
     marginTop: '5px',
   },
+  overfloWrap: 'break-word',
+  wordWrap: 'break-word',
 });
 
 export const Item = styled.li({

@@ -14,5 +14,5 @@
 ## ✅ Things to do:
 
 - Make it even more responsive for different types of devices
-- Import API_KEY from an env file ( best practice for comercial deploying )
+- Import API_KEY from an env file ( best practice for commercial deploying )
 - Improve the UI/UX, implement more performance features from NextJS documentation
